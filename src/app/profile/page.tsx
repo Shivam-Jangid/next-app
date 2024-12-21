@@ -31,7 +31,7 @@ export default function profilePage() {
       <div className='mx-24 flex  justify-between'>
       <span className='text-pink-600 text-3xl font-semibold font-mono hover:underline'>{loading?"Please Wait":'Dashboard'}</span>
       <div>
-      <button className='transition-all h-14 bg-pink-500 rounded px-10 py-3 font-semibold text-black text-lg hover:bg-pink:200 hover:text-pink-950 hover:bg-pink-50 hover:shadow-lg hover:shadow-pink-500/50 hover:rounded-lg
+      <button className='transition-all h-14 bg-pink-500 rounded px-10 py-3 font-semibold text-black text-lg hover:bg-pink:200 hover:text-pink-950 hover:bg-pink-50 hover:shadow-2xl hover:shadow-pink-500/50 hover:rounded-lg
       '
       onClick={logout}
       >Log Out</button>
@@ -41,6 +41,7 @@ export default function profilePage() {
       >Profile</button>
       </div>
     </div>
+    <div>Some Data</div>
     </div>
   )
 }
