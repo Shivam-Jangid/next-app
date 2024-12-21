@@ -45,9 +45,12 @@ export default function SignUpPage() {
     <div className="label-heads pt-7">Password</div>
     <input id="password" onChange={(e)=>{SetUser({...user,password:e.target.value})}} className="input-css" type="password" placeholder="********"/>
     <div className="flex justify-center pt-9 pb-3">
-    <button className="transition-all bg-pink-400 rounded px-10 py-3 font-semibold text-lg hover:bg-pink:200 hover:text-pink-900 hover:bg-pink-500;"
+    <button className="transition-all text-black bg-pink-500 rounded px-10 py-3 font-semibold text-lg hover:bg-pink-50
+    hover:shadow-lg hover:shadow-pink-500/50
+    hover:rounded-lg
+    "
     onClick={onSignUp}
-    >{buttonDisabled?"No Sign Up":"Sign Up"}</button>
+    >{buttonDisabled?"Fill The Feilds":"Sign Up"}</button>
     </div>
     <div className="text-center font-semibold py-4 text-pink-400 text-base ">Already a User? <Link className="text-green-400 underline hover:decoration-2 hover:text-green-500" href="/login">Log in</Link></div>
     </div>

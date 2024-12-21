@@ -46,7 +46,8 @@ export default function LoginPage() {
     <div className="label-heads pt-7">Password</div>
     <input id="password" onChange={(e)=>{SetUser({...user,password:e.target.value})}} className="input-css" type="password" placeholder="********"/>
     <div className="flex justify-center pt-9 pb-3">
-    <button className="transition-all bg-pink-400 rounded px-10 py-3 font-semibold text-lg hover:bg-pink:200 hover:text-pink-900 hover:bg-pink-50"
+    <button className="transition-all bg-pink-500 rounded px-10 py-3 font-semibold text-black text-lg hover:bg-pink:200 hover:text-pink-900 hover:bg-pink-50 hover:shadow-lg hover:shadow-pink-500/50 hover:rounded-lg
+    "
     onClick={onLogin}
     >{buttonDisabled?"No Login":"Log in"}</button>
     </div>
