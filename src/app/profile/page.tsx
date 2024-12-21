@@ -3,7 +3,7 @@ import axios from "axios"
 import toast from "react-hot-toast";
 import React,{ useState } from "react";
 import { useRouter } from "next/navigation";
-export default function profilePage() {
+export default function ProfilePage() {
   const [loading, setLoading] = useState(false);
   const router = useRouter()
   const logout = async ()=>{

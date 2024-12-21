@@ -2,7 +2,7 @@
 import React,{ useEffect, useState } from "react";
 import axios from 'axios';
 import Link from "next/link";
-export default function page() {
+export default function Page() {
   const [user,setUser] = useState({
     email:"",username:"",id:""
   })
