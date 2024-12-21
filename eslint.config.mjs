@@ -27,7 +27,8 @@ const eslintConfig = [
     },
     rules: {
       // Enforce no usage of 'any'
-      "@typescript-eslint/no-explicit-any": "error",
+      "@typescript-eslint/no-explicit-any": ["error", { "ignoreRestArgs": true }]
+
 
       // Optional: Allow in rest arguments if needed
       // "@typescript-eslint/no-explicit-any": ["error", { "ignoreRestArgs": true }]
