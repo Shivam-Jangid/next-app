@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+@layer base{
+  .label-heads{
+    @apply text-pink-100 text-lg pb-2;
+  }
+  .input-css{
+    @apply rounded w-full h-9 pl-2  text-black text-base focus:outline-none focus:text-lg focus:bg-white focus:font-semibold;
+  }
+}
