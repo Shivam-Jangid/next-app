@@ -1,7 +1,7 @@
 'use client'
 import axios from "axios"
 import toast from "react-hot-toast";
-import { useState } from "react";
+import React,{ useState } from "react";
 import { useRouter } from "next/navigation";
 export default function profilePage() {
   const [loading, setLoading] = useState(false);
